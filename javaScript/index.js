@@ -4,12 +4,10 @@ function calculaTabuada() {
 
 	var numero = campoNumero.value;
 
-	for (var antecessor = numero; antecessor >= 1; antecessor--) {
-		for (var contador = 1; contador <= 10; contador++) {
-			var conta = antecessor * contador;
-			tabuada = tabuada + "<p>" + antecessor + " x " + contador + " = " + conta;
-			document.getElementById("tabuada").innerHTML = tabuada;
-		}
+	for (var contador = 1; contador <= 10; contador++) {
+		var conta = numero * contador;
+		tabuada = tabuada + "<p>" + numero + " x " + contador + " = " + conta + "</p>";
+		document.getElementById("tabuada").innerHTML = tabuada;
 	}
 }
 
