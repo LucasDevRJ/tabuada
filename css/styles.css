@@ -17,14 +17,33 @@ p {
 	font-size: 20px;
 }
 
+#mensagem {
+	color: #FF0000;
+}
+
 input {
 	width: 15%;
 	padding: 10px 15px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+}
+
+.caixa-botao {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	width: 100%;
 }
 
 button {
+	font-size: 15px;
+	font-weight: bold;
 	width: 15%;
 	padding: 15px 0;
+	border: none;
+	cursor: pointer;
+	background-color: #D3D3D3;
 }
 
 #tabuada {
